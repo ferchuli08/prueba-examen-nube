@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Móvil Azul</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #ebf8ff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      color: #2b6cb0;
+      font-size: 2.5rem;
+      font-weight: bold;
+      padding: 2rem 0;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card {
+      background-color: #bee3f8;
+      border-radius: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    .card img {
+      width: 100%;
+      display: block;
+    }
+    .card-content {
+      padding: 1rem;
+    }
+    .card h2 {
+      color: #2c5282;
+      font-size: 1.25rem;
+      margin: 0 0 0.5rem;
+    }
+    .card p {
+      color: #2b6cb0;
+      margin-bottom: 1rem;
+    }
+    .buy-button {
+      background-color: #3182ce;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      width: 100%;
+      cursor: pointer;
+      font-size: 1rem;
+      border-radius: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    📱 Móvil Azul
+  </header>
+  <section class="products">
+    <div class="card">
+      <div class="card-content">
+        <h2>iPhone 14 Pro</h2>
+        <p>$999</p>
+        <button class="buy-button">Comprar</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <h2>Samsung Galaxy S23</h2>
+        <p>$849</p>
+        <button class="buy-button">Comprar</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <h2>Google Pixel 8</h2>
+        <p>$799</p>
+        <button class="buy-button">Comprar</button>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
